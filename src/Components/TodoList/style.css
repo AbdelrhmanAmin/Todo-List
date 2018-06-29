@@ -1,0 +1,35 @@
+.todo-list{
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  width: 100%;
+}
+.todo {
+  display: flex;
+  margin: 10px;
+}
+.todo:hover .remove{
+  opacity : 1;
+  transition: opacity 0.2s;
+}
+.todo_check{
+  margin-right: 10px;
+}
+.todo_check:checked + .todo_content{
+  text-decoration: line-through;
+  font-style: italic;
+  color: #ccc;
+}
+.todo_actions{
+  margin-left: auto;
+}
+.remove {
+  background: #EF5350;
+  opacity: 0;
+  border-radius: 1000px;
+  padding: 4px 7px;
+  color: #fff;
+  border: none;
+  line-height: 12px;
+  text-transform: capitalize;
+}

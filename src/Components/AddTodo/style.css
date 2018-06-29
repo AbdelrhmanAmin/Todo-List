@@ -1,0 +1,23 @@
+.add-todo{
+  width: 100%;
+  display: flex;
+}
+.add-todo_input{
+  width: 80%;
+  border: solid 1px #ccc;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0;
+  border-right: none;
+}
+.add-todo_submit{
+  width: 20%;
+  margin: 10px;
+  margin-left: 0;
+  background: #2196f3;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: solid 1px #1976d2;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
